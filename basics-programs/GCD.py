@@ -1,8 +1,8 @@
-def compute_hcf(x, y):
+def computehcf(x, y):
 
     if x > y:
         smaller = y
-    else:
+    else:   
         smaller = x
     for i in range(1, smaller+1):
         if((x % i == 0) and (y % i == 0)):
@@ -12,4 +12,4 @@ def compute_hcf(x, y):
 num1 = 54 
 num2 = 24
 
-print("The H.C.F. is", compute_hcf(num1, num2))
+print("The H.C.F. is", computehcf(num1, num2))
